@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalau Audiovisuales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/17837a89c0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="body">
+
+    <header class="d-flex align-items-center">
+        <div class="icono-menu d-flex justify-content-center align-items-center">
+            <i class="fas fa-bars" id="btnOpen"></i>
+        </div>
+    </header>
+
+    <div class="menuSide" id="menuSide">
+        <div class="iconPage d-flex align-items-center justify-content-center">
+            <img src="KALAUNEGRO.png" alt="Logo" class="logo">
+        </div>
+
+        <div class="opcionesMenu">
+
+            <a href="index.html">
+                <div class="opcion d-flex align-items-center">
+                    <i class="fas fa-home"></i>
+                    <h5 class="h5Black">Home</h5>
+                </div>
+            </a>
+
+            <a href="proyectos.html">
+                <div class="opcion d-flex align-items-center">
+                    <i class="fas fa-video"></i>
+                    <h5 class="h5Black">Proyectos</h5>
+                </div>
+            </a>
+
+
+            <a href="precios.html" >
+                <div class="opcion d-flex align-items-center">
+                    <i class="fa-solid fa-money-check-dollar"></i>
+                    <h5 class="h5Black">Precios</h5>
+                </div>
+            </a>
+
+            <a href="contacto.html" class="selected">
+                <div class="opcion d-flex align-items-center">
+                    <i class="fa-solid fa-address-card"></i>
+                    <h5 class="h5Black">Contacto</h5>
+                </div>
+            </a>
+
+
+
+        </div>
+    </div>
+
+    <main>
+        <div class="divContactoTitle">
+            <div class="d-flex align-items-center justify-content-center">
+                <h1 class="h1White my-5 py-5">Contacto</h1>
+            </div>
+
+            <div class="contactForm d-flex justify-content-center align-items-center flex-column">
+
+                <form action="https://formsubmit.co/kalauav@gmail.com" class="contactForm" method="post"> 
+
+                    <div class="textInput">
+                        <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+                    </div>
+
+                    <div class="textInput">
+                        <input type="text" name="asunto" placeholder="Asunto">
+                    </div>
+
+                    <div class="textInput">
+                        <input type="text" name="mensaje" placeholder="Mensaje">
+                    </div>
+                
+                    <input type="submit" value="Enviar" class="btnEnviar">
+                </form>
+
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="d-flex justify-content-around align-items-center">
+
+        <div>
+            <a href="index.html"><img src="KALAUBLANCO.png" alt="kalaupng" class="img-fluid imgF"></a>
+        </div>
+
+        <div class="d-flex divI ">
+            <div class="mx-3">
+                <a href="https://www.instagram.com/kalau.av/" target="_blank" class="aF">
+                    <i class="fa-brands fa-instagram iF"></i>
+                    <p class="phone mx-2">@kalau.av</p>
+                </a>
+            </div>
+            <span class="spanBKalau"></span>
+            <span class="spanB"></span>
+
+            <div class="mx-3">
+                <i class="fa-solid fa-phone iF"></i>
+                <p class="phone mx-2">095-414-772</p>
+            </div>
+
+            <span class="spanB"></span>
+            
+            <div class="mx-3">
+                <i class="fa-solid fa-envelope iF"></i>
+                <p class="phone mx-2">kalauav@gmail.com</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

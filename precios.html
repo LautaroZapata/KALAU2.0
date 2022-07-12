@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalau Audiovisuales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/17837a89c0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="body">
+
+    <header class="d-flex align-items-center">
+        <div class="icono-menu d-flex justify-content-center align-items-center">
+            <i class="fas fa-bars" id="btnOpen"></i>
+        </div>
+    </header>
+
+    <div class="menuSide" id="menuSide">
+        <div class="iconPage d-flex align-items-center justify-content-center">
+            <img src="KALAUNEGRO.png" alt="Logo" class="logo">
+        </div>
+
+        <div class="opcionesMenu">
+
+            <a href="index.html">
+                <div class="opcion d-flex align-items-center">
+                    <i class="fas fa-home"></i>
+                    <h5 class="h5Black">Home</h5>
+                </div>
+            </a>
+
+            <a href="proyectos.html">
+                <div class="opcion d-flex align-items-center">
+                    <i class="fas fa-video"></i>
+                    <h5 class="h5Black">Proyectos</h5>
+                </div>
+            </a>
+
+
+            <a href="precios.html" class="selected">
+                <div class="opcion d-flex align-items-center">
+                    <i class="fa-solid fa-money-check-dollar"></i>
+                    <h5 class="h5Black">Precios</h5>
+                </div>
+            </a>
+
+            <a href="contacto.html">
+                <div class="opcion d-flex align-items-center">
+                    <i class="fa-solid fa-address-card"></i>
+                    <h5 class="h5Black">Contacto</h5>
+                </div>
+            </a>
+
+
+
+        </div>
+    </div>
+
+    <main>
+        <div class="d-flex justify-content-center align-items-center divPreciosTitle border-bottom">
+            <h1 class="h1White">Precios</h1>
+        </div>
+        <div class="titleVideoPrecios d-flex align-items-center justify-content-center flex-wrap container">
+            <div class="p-5 border-bottom b-5 titleInfoPrecios">
+                <h2>Información</h2>
+                <p class="h5 my-5">Antes de realizar el pago de cualquiera de los servicios ofrecidos, es necesario ponerse en contacto con KALAU.AV por cualquiera de los medios de <a href="contacto.html">contacto.</a></p>
+                <h4 class="my-5 h4titles">Videoclips</h4>
+                <p class="h5">El servicio de videoclip ofrece la oportunidad de realizar un video completo. Este inlcuye:</p>
+                <ul>
+                    <li class="h5">3 horas de rodaje.</li>
+                    <li class="h5">Locación ÚNICA.</li>
+                    <li class="h5">Estabilizador</li>
+                    <li class="h5">10 fotos en formato digital.</li>
+                    <li class="h5">Grabación de video *1440p*</li>
+                    <li class="h5">Corrección de color</li>
+                    <li class="h5">Efectos visuales *básicos-medio*</li>
+                </ul>
+
+                <h4 class="my-5 h4titles">Oneshots</h4>
+                <p class="h5">El servicio de oneshots consta en plasmar una idea de video en una sola toma. Este inlcuye:</p>
+                <ul>
+                    <li class="h5">2 horas de rodaje.</li>
+                    <li class="h5">TOMA ÚNICA.</li>
+                    <li class="h5">Locación ÚNICA.</li>
+                    <li class="h5">Estabilizador</li>
+                    <li class="h5">10 fotos en formato digital.</li>
+                    <li class="h5">Grabación de video *1440p*</li>
+                    <li class="h5">Corrección de color</li>
+                    <li class="h5">Efectos visuales *básicos-medio*</li>
+                </ul>
+
+                <h4 class="my-5 h4titles">Video Edit & Vfx</h4>
+                <p class="h5">El servicio de edición de videos se basa en realizar la edición del videoclip con el material que envía el artista. Este inlcuye:</p>
+                <ul>
+                    <li class="h5">Corrección de color</li>
+                    <li class="h5">Efectos visuales *básicos-medio*</li>
+                </ul>
+            </div>
+            
+
+            <div class="card m-5" style="width: 20rem;">
+                <img src="img/cel.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title h5Black">Oneshot</h5>
+                    
+                    <script src="https://www.mercadopago.com.uy/integrations/v1/web-payment-checkout.js"
+                        data-preference-id="1151150362-be4e7a2b-446b-454d-9584-16472166b651" data-source="button">
+                        </script>
+                </div>
+            </div>
+
+
+            <div class="card m-5" style="width: 20rem;">
+                <img src="img/cel.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title h5Black">Videoclip</h5>
+                    <script src="https://www.mercadopago.com.uy/integrations/v1/web-payment-checkout.js"
+                        data-preference-id="1151150362-2cd0ac82-4dd3-4934-a44b-9efa12afdb21" data-source="button">
+                    </script>
+                </div>
+            </div>
+
+            <div class="card m-5" style="width: 20rem;">
+                <img src="img/cel.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title h5Black">Video Edit & Vfx</h5>
+                    <script src="https://www.mercadopago.com.uy/integrations/v1/web-payment-checkout.js"
+                        data-preference-id="1151150362-40bfa27c-049b-4333-b9fc-c1ea66407c48" data-source="button">
+                    </script>
+
+
+                </div>
+            </div>
+
+            
+        </div>
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+    
+</body>
+
+</html>
