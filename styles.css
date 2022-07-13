@@ -311,7 +311,7 @@ header {
     width: 100%;
     background-image: url(img/contacto.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 0% 0%;
 }
 
 .contactForm {
