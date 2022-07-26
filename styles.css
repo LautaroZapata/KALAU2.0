@@ -529,4 +529,18 @@ footer {
         border: solid 0.1px #fff;
         width: 100%;
     }
+
+    /* Clases para JS MENU */
+
+.bodyMovimiento{
+    margin-left: 250px;
+
+}
+
+.menuSideMovimiento {
+    width: 250px;
+    margin-left: 250px;
+}
+
+/* Clases para JS MENU */
 }
