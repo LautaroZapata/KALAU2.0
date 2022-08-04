@@ -220,12 +220,14 @@ header {
 
 .bodyMovimiento{
     margin-left: 250px;
+    transition: all 300ms;
 
 }
 
 .menuSideMovimiento {
     width: 250px;
     margin-left: 250px;
+    transition: all 300ms;
 }
 
 /* Clases para JS MENU */
