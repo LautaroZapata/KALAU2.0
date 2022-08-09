@@ -462,7 +462,6 @@ footer {
         left: -250px;
         color: #000;
         font-size: 20px;
-        transition: all 500ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
     }
 
     .divProyectosTitle {
@@ -538,5 +537,13 @@ footer {
         position: fixed;
         top: 0;
         z-index: 2;
+    }
+    .videocontainer {
+        display: none !important;
+    }
+    body {
+        background-image: url(img/precios.jpeg);
+        background-position: center;
+        background-size: cover;
     }
 }
