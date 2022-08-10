@@ -552,7 +552,7 @@ footer {
     .videocontainer {
         display: none !important;
     }
-    body {
+    .bodyNegro {
         background-image: url(img/precios.jpeg);
         background-position: center;
         background-size: cover;
